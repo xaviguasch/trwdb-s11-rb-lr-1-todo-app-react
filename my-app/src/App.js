@@ -1,17 +1,16 @@
 import React from 'react'
 import './App.css'
 
+import Header from './components/Header'
+import MainContent from './components/MainContent'
+import Footer from './components/Footer'
+
 function App() {
   return (
-    <div className='App'>
-      <input type='checkbox' name='' id='' />
-      <p>Item one</p>
-      <input type='checkbox' name='' id='' />
-      <p>Item two</p>
-      <input type='checkbox' name='' id='' />
-      <p>Item three</p>
-      <input type='checkbox' name='' id='' />
-      <p>Item four</p>
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   )
 }
