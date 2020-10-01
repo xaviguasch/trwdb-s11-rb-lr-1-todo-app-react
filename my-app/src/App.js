@@ -7,7 +7,7 @@ Challenge: Change the <App /> component into a stateful class component and load
 */
 
 import React from 'react'
-import TodoItem from './TodoItem'
+import TodoItem from './components/TodoItem'
 import todosData from './todosData'
 
 class App extends React.Component {
